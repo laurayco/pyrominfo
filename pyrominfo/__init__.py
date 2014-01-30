@@ -1,7 +1,7 @@
 # Copyright (C) 2013 Garrett Brown
 # See Copyright Notice in rominfo.py
 
-from rominfo import RomInfoParser
+from .rominfo import RomInfoParser
 
 __all__ = [
     "RomInfo",

@@ -1,10 +1,10 @@
 # Copyright (C) 2013 Garrett Brown
 # See Copyright Notice in rominfo.py
 
-from rominfo import RomInfoParser
+from .rominfo import RomInfoParser
 
 # Publishers are the same across these handhelds
-from gameboy import gameboy_publishers
+from .gameboy import gameboy_publishers
 
 class GBAParser(RomInfoParser):
     """

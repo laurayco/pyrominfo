@@ -18,6 +18,7 @@ class TestGBAParser(unittest.TestCase):
         self.assertEqual(len(empty), 0)
 
         props = self.gbaParser.parse("data/Golden Sun - The Lost Age.gba")
+
         self.assertEqual(len(props), 8)
         self.assertEqual(props["title"], "GOLDEN_SUN_B")
         self.assertEqual(props["code"], "AGFE")
